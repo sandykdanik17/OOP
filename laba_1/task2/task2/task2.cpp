@@ -13,7 +13,7 @@ int main() {
     std::vector<int> A(N);
     for (int i = 0; i < N; i++) std::cin >> A[i];
 
-    int* pA = A.data(); // Вказівник на початок масиву
+    int* pA = A.data(); 
     int firstNegativeIndex = -1;
     for (int i = 0; i < N; i++) {
         if (*(pA + i) < 0) {
