@@ -5,7 +5,7 @@
 
 using namespace std;
 
-// Функція підрахунку кількості одиничних бітів
+
 int countBits(unsigned short x) {
     int count = 0;
     while (x) {
@@ -19,7 +19,7 @@ void encrypt() {
     const int numLines = 8, lineLength = 8;
     string lines[numLines];
 
-    // Очищення файлу перед записом нових даних
+    
     ofstream clearFile("encrypted.bin", ios::trunc);
     clearFile.close();
 
