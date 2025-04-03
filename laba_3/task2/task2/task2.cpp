@@ -158,7 +158,8 @@ public:
 int Vector::objectCount = 0;
 
 int main() {
-    SetConsoleOutputCP(65001);
+    SetConsoleCP(1251);
+    SetConsoleOutputCP(1251);
 
     Vector v1(5);
     v1.inputFromKeyboard();
